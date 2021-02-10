@@ -1,5 +1,7 @@
 # App architecture
 
+Hosted Version: https://testapi-6bce3.firebaseapp.com/
+
 I used cloud functions from firebase to build an API endpoint (this was integrated with Express.js as well) and developped an app using react as front end hosted on firebase, that allows the user to input the n-th number they want to get from the fibonacci sequence and send a request to the API endpoint I built that calculates that.
 
 Then the request is saved in cloud firestore database. In the frontend of the app I then grab all the requests made that are saved in the Cloud firestore and present the value of the n-th number of the fibonacci sequence that the user asked for.
