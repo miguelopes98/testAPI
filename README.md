@@ -1,9 +1,13 @@
 # App architecture
 
 I used cloud functions from firebase to build an API endpoint (this was integrated with Express.js as well) and developped an app using react as front end hosted on firebase, that allows the user to input the n-th number they want to get from the fibonacci sequence and send a request to the API endpoint I built that calculates that.
+
 Then the request is saved in cloud firestore database. In the frontend of the app I then grab all the requests made that are saved in the Cloud firestore and present the value of the n-th number of the fibonacci sequence that the user asked for.
+
 I chose to host the app in firebase since it is pretty straight forward and already knew how to use it, same thing applies to choosing cloud firestore as database.
+
 I chose react as a front end since it is my go to front end framework and really enjoy, I also know that it is a modern javascript framework with a few similarities to Angular, so I though it was the appropriate choice, since I haven't learned angular (although that isn't a problem when the time comes).
+
 I incorporated the API creation with express.js since I had already used it and it was the recommendation from the cloud functions documentation.
 
 # Getting Started with Create React App
